@@ -15,6 +15,9 @@
 		BBD3FED02A59B1BE001822A3 /* ShoppingList_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FECF2A59B1BE001822A3 /* ShoppingList_Watch_AppTests.swift */; };
 		BBD3FEDA2A59B1BE001822A3 /* ShoppingList_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FED92A59B1BE001822A3 /* ShoppingList_Watch_AppUITests.swift */; };
 		BBD3FEDC2A59B1BE001822A3 /* ShoppingList_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FEDB2A59B1BE001822A3 /* ShoppingList_Watch_AppUITestsLaunchTests.swift */; };
+		BBD3FEF12A59B620001822A3 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FEF02A59B620001822A3 /* Item.swift */; };
+		BBD3FEF32A59BD31001822A3 /* ItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FEF22A59BD31001822A3 /* ItemViewModel.swift */; };
+		BBD3FEF62A59C2EE001822A3 /* FileManager-DocumentsDirectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FEF52A59C2EE001822A3 /* FileManager-DocumentsDirectory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +70,9 @@
 		BBD3FED52A59B1BE001822A3 /* ShoppingList Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShoppingList Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD3FED92A59B1BE001822A3 /* ShoppingList_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		BBD3FEDB2A59B1BE001822A3 /* ShoppingList_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		BBD3FEF02A59B620001822A3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		BBD3FEF22A59BD31001822A3 /* ItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewModel.swift; sourceTree = "<group>"; };
+		BBD3FEF52A59C2EE001822A3 /* FileManager-DocumentsDirectory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FileManager-DocumentsDirectory.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +124,13 @@
 		BBD3FEBD2A59B1BD001822A3 /* ShoppingList Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				BBD3FEF42A59BD38001822A3 /* ViewModel */,
+				BBD3FEED2A59B57C001822A3 /* View */,
+				BBD3FEEC2A59B578001822A3 /* Model */,
 				BBD3FEBE2A59B1BD001822A3 /* ShoppingListApp.swift */,
-				BBD3FEC02A59B1BD001822A3 /* ContentView.swift */,
 				BBD3FEC22A59B1BE001822A3 /* Assets.xcassets */,
 				BBD3FEC42A59B1BE001822A3 /* Preview Content */,
+				BBD3FEF52A59C2EE001822A3 /* FileManager-DocumentsDirectory.swift */,
 			);
 			path = "ShoppingList Watch App";
 			sourceTree = "<group>";
@@ -149,6 +158,30 @@
 				BBD3FEDB2A59B1BE001822A3 /* ShoppingList_Watch_AppUITestsLaunchTests.swift */,
 			);
 			path = "ShoppingList Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		BBD3FEEC2A59B578001822A3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BBD3FEF02A59B620001822A3 /* Item.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BBD3FEED2A59B57C001822A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BBD3FEC02A59B1BD001822A3 /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BBD3FEF42A59BD38001822A3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				BBD3FEF22A59BD31001822A3 /* ItemViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +343,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				BBD3FEC12A59B1BD001822A3 /* ContentView.swift in Sources */,
+				BBD3FEF62A59C2EE001822A3 /* FileManager-DocumentsDirectory.swift in Sources */,
+				BBD3FEF32A59BD31001822A3 /* ItemViewModel.swift in Sources */,
+				BBD3FEF12A59B620001822A3 /* Item.swift in Sources */,
 				BBD3FEBF2A59B1BD001822A3 /* ShoppingListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
