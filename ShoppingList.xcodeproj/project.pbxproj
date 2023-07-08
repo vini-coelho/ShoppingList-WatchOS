@@ -1,0 +1,685 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BBD3FEBA2A59B1BD001822A3 /* ShoppingList Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = BBD3FEB92A59B1BD001822A3 /* ShoppingList Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		BBD3FEBF2A59B1BD001822A3 /* ShoppingListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FEBE2A59B1BD001822A3 /* ShoppingListApp.swift */; };
+		BBD3FEC12A59B1BD001822A3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FEC02A59B1BD001822A3 /* ContentView.swift */; };
+		BBD3FEC32A59B1BE001822A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD3FEC22A59B1BE001822A3 /* Assets.xcassets */; };
+		BBD3FEC62A59B1BE001822A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBD3FEC52A59B1BE001822A3 /* Preview Assets.xcassets */; };
+		BBD3FED02A59B1BE001822A3 /* ShoppingList_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FECF2A59B1BE001822A3 /* ShoppingList_Watch_AppTests.swift */; };
+		BBD3FEDA2A59B1BE001822A3 /* ShoppingList_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FED92A59B1BE001822A3 /* ShoppingList_Watch_AppUITests.swift */; };
+		BBD3FEDC2A59B1BE001822A3 /* ShoppingList_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD3FEDB2A59B1BE001822A3 /* ShoppingList_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BBD3FEBB2A59B1BD001822A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBD3FEAD2A59B1BD001822A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBD3FEB82A59B1BD001822A3;
+			remoteInfo = "ShoppingList Watch App";
+		};
+		BBD3FECC2A59B1BE001822A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBD3FEAD2A59B1BD001822A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBD3FEB82A59B1BD001822A3;
+			remoteInfo = "ShoppingList Watch App";
+		};
+		BBD3FED62A59B1BE001822A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBD3FEAD2A59B1BD001822A3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BBD3FEB82A59B1BD001822A3;
+			remoteInfo = "ShoppingList Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BBD3FEE22A59B1BE001822A3 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				BBD3FEBA2A59B1BD001822A3 /* ShoppingList Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BBD3FEB32A59B1BD001822A3 /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD3FEB92A59B1BD001822A3 /* ShoppingList Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ShoppingList Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD3FEBE2A59B1BD001822A3 /* ShoppingListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingListApp.swift; sourceTree = "<group>"; };
+		BBD3FEC02A59B1BD001822A3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BBD3FEC22A59B1BE001822A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBD3FEC52A59B1BE001822A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BBD3FECB2A59B1BE001822A3 /* ShoppingList Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShoppingList Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD3FECF2A59B1BE001822A3 /* ShoppingList_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList_Watch_AppTests.swift; sourceTree = "<group>"; };
+		BBD3FED52A59B1BE001822A3 /* ShoppingList Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ShoppingList Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBD3FED92A59B1BE001822A3 /* ShoppingList_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		BBD3FEDB2A59B1BE001822A3 /* ShoppingList_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingList_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BBD3FEB62A59B1BD001822A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD3FEC82A59B1BE001822A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD3FED22A59B1BE001822A3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BBD3FEAC2A59B1BD001822A3 = {
+			isa = PBXGroup;
+			children = (
+				BBD3FEBD2A59B1BD001822A3 /* ShoppingList Watch App */,
+				BBD3FECE2A59B1BE001822A3 /* ShoppingList Watch AppTests */,
+				BBD3FED82A59B1BE001822A3 /* ShoppingList Watch AppUITests */,
+				BBD3FEB42A59B1BD001822A3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BBD3FEB42A59B1BD001822A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BBD3FEB32A59B1BD001822A3 /* ShoppingList.app */,
+				BBD3FEB92A59B1BD001822A3 /* ShoppingList Watch App.app */,
+				BBD3FECB2A59B1BE001822A3 /* ShoppingList Watch AppTests.xctest */,
+				BBD3FED52A59B1BE001822A3 /* ShoppingList Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BBD3FEBD2A59B1BD001822A3 /* ShoppingList Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				BBD3FEBE2A59B1BD001822A3 /* ShoppingListApp.swift */,
+				BBD3FEC02A59B1BD001822A3 /* ContentView.swift */,
+				BBD3FEC22A59B1BE001822A3 /* Assets.xcassets */,
+				BBD3FEC42A59B1BE001822A3 /* Preview Content */,
+			);
+			path = "ShoppingList Watch App";
+			sourceTree = "<group>";
+		};
+		BBD3FEC42A59B1BE001822A3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BBD3FEC52A59B1BE001822A3 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BBD3FECE2A59B1BE001822A3 /* ShoppingList Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				BBD3FECF2A59B1BE001822A3 /* ShoppingList_Watch_AppTests.swift */,
+			);
+			path = "ShoppingList Watch AppTests";
+			sourceTree = "<group>";
+		};
+		BBD3FED82A59B1BE001822A3 /* ShoppingList Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BBD3FED92A59B1BE001822A3 /* ShoppingList_Watch_AppUITests.swift */,
+				BBD3FEDB2A59B1BE001822A3 /* ShoppingList_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "ShoppingList Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BBD3FEB22A59B1BD001822A3 /* ShoppingList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD3FEE32A59B1BE001822A3 /* Build configuration list for PBXNativeTarget "ShoppingList" */;
+			buildPhases = (
+				BBD3FEB12A59B1BD001822A3 /* Resources */,
+				BBD3FEE22A59B1BE001822A3 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBD3FEBC2A59B1BD001822A3 /* PBXTargetDependency */,
+			);
+			name = ShoppingList;
+			productName = ShoppingList;
+			productReference = BBD3FEB32A59B1BD001822A3 /* ShoppingList.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		BBD3FEB82A59B1BD001822A3 /* ShoppingList Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD3FEDF2A59B1BE001822A3 /* Build configuration list for PBXNativeTarget "ShoppingList Watch App" */;
+			buildPhases = (
+				BBD3FEB52A59B1BD001822A3 /* Sources */,
+				BBD3FEB62A59B1BD001822A3 /* Frameworks */,
+				BBD3FEB72A59B1BD001822A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ShoppingList Watch App";
+			productName = "ShoppingList Watch App";
+			productReference = BBD3FEB92A59B1BD001822A3 /* ShoppingList Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BBD3FECA2A59B1BE001822A3 /* ShoppingList Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD3FEE62A59B1BE001822A3 /* Build configuration list for PBXNativeTarget "ShoppingList Watch AppTests" */;
+			buildPhases = (
+				BBD3FEC72A59B1BE001822A3 /* Sources */,
+				BBD3FEC82A59B1BE001822A3 /* Frameworks */,
+				BBD3FEC92A59B1BE001822A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBD3FECD2A59B1BE001822A3 /* PBXTargetDependency */,
+			);
+			name = "ShoppingList Watch AppTests";
+			productName = "ShoppingList Watch AppTests";
+			productReference = BBD3FECB2A59B1BE001822A3 /* ShoppingList Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BBD3FED42A59B1BE001822A3 /* ShoppingList Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBD3FEE92A59B1BE001822A3 /* Build configuration list for PBXNativeTarget "ShoppingList Watch AppUITests" */;
+			buildPhases = (
+				BBD3FED12A59B1BE001822A3 /* Sources */,
+				BBD3FED22A59B1BE001822A3 /* Frameworks */,
+				BBD3FED32A59B1BE001822A3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BBD3FED72A59B1BE001822A3 /* PBXTargetDependency */,
+			);
+			name = "ShoppingList Watch AppUITests";
+			productName = "ShoppingList Watch AppUITests";
+			productReference = BBD3FED52A59B1BE001822A3 /* ShoppingList Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BBD3FEAD2A59B1BD001822A3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					BBD3FEB22A59B1BD001822A3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BBD3FEB82A59B1BD001822A3 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					BBD3FECA2A59B1BE001822A3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BBD3FEB82A59B1BD001822A3;
+					};
+					BBD3FED42A59B1BE001822A3 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = BBD3FEB82A59B1BD001822A3;
+					};
+				};
+			};
+			buildConfigurationList = BBD3FEB02A59B1BD001822A3 /* Build configuration list for PBXProject "ShoppingList" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BBD3FEAC2A59B1BD001822A3;
+			productRefGroup = BBD3FEB42A59B1BD001822A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BBD3FEB22A59B1BD001822A3 /* ShoppingList */,
+				BBD3FEB82A59B1BD001822A3 /* ShoppingList Watch App */,
+				BBD3FECA2A59B1BE001822A3 /* ShoppingList Watch AppTests */,
+				BBD3FED42A59B1BE001822A3 /* ShoppingList Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BBD3FEB12A59B1BD001822A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD3FEB72A59B1BD001822A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD3FEC62A59B1BE001822A3 /* Preview Assets.xcassets in Resources */,
+				BBD3FEC32A59B1BE001822A3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD3FEC92A59B1BE001822A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD3FED32A59B1BE001822A3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BBD3FEB52A59B1BD001822A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD3FEC12A59B1BD001822A3 /* ContentView.swift in Sources */,
+				BBD3FEBF2A59B1BD001822A3 /* ShoppingListApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD3FEC72A59B1BE001822A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD3FED02A59B1BE001822A3 /* ShoppingList_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BBD3FED12A59B1BE001822A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BBD3FEDC2A59B1BE001822A3 /* ShoppingList_Watch_AppUITestsLaunchTests.swift in Sources */,
+				BBD3FEDA2A59B1BE001822A3 /* ShoppingList_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BBD3FEBC2A59B1BD001822A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBD3FEB82A59B1BD001822A3 /* ShoppingList Watch App */;
+			targetProxy = BBD3FEBB2A59B1BD001822A3 /* PBXContainerItemProxy */;
+		};
+		BBD3FECD2A59B1BE001822A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBD3FEB82A59B1BD001822A3 /* ShoppingList Watch App */;
+			targetProxy = BBD3FECC2A59B1BE001822A3 /* PBXContainerItemProxy */;
+		};
+		BBD3FED72A59B1BE001822A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BBD3FEB82A59B1BD001822A3 /* ShoppingList Watch App */;
+			targetProxy = BBD3FED62A59B1BE001822A3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BBD3FEDD2A59B1BE001822A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BBD3FEDE2A59B1BE001822A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		BBD3FEE02A59B1BE001822A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppingList Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShoppingList;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinicoelho.ShoppingList.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		BBD3FEE12A59B1BE001822A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShoppingList Watch App/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ShoppingList;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinicoelho.ShoppingList.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		BBD3FEE42A59B1BE001822A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = ShoppingList;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinicoelho.ShoppingList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BBD3FEE52A59B1BE001822A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				INFOPLIST_KEY_CFBundleDisplayName = ShoppingList;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vinicoelho.ShoppingList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BBD3FEE72A59B1BE001822A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinicoelho.ShoppingList-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingList Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppingList Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		BBD3FEE82A59B1BE001822A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinicoelho.ShoppingList-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShoppingList Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShoppingList Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		BBD3FEEA2A59B1BE001822A3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinicoelho.ShoppingList-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ShoppingList Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		BBD3FEEB2A59B1BE001822A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vinicoelho.ShoppingList-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ShoppingList Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BBD3FEB02A59B1BD001822A3 /* Build configuration list for PBXProject "ShoppingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD3FEDD2A59B1BE001822A3 /* Debug */,
+				BBD3FEDE2A59B1BE001822A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD3FEDF2A59B1BE001822A3 /* Build configuration list for PBXNativeTarget "ShoppingList Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD3FEE02A59B1BE001822A3 /* Debug */,
+				BBD3FEE12A59B1BE001822A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD3FEE32A59B1BE001822A3 /* Build configuration list for PBXNativeTarget "ShoppingList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD3FEE42A59B1BE001822A3 /* Debug */,
+				BBD3FEE52A59B1BE001822A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD3FEE62A59B1BE001822A3 /* Build configuration list for PBXNativeTarget "ShoppingList Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD3FEE72A59B1BE001822A3 /* Debug */,
+				BBD3FEE82A59B1BE001822A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BBD3FEE92A59B1BE001822A3 /* Build configuration list for PBXNativeTarget "ShoppingList Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BBD3FEEA2A59B1BE001822A3 /* Debug */,
+				BBD3FEEB2A59B1BE001822A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BBD3FEAD2A59B1BD001822A3 /* Project object */;
+}
