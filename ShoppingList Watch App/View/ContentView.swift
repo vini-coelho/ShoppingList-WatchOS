@@ -14,7 +14,7 @@ struct ContentView: View {
   var body: some View {
     VStack {
       HStack(alignment: .center, spacing: 6) {
-        TextField("Adicionar novo item",  text: $text)
+        TextField("New item ✍️",  text: $text)
         Button {
           viewModel.add(text: text)
           
@@ -58,7 +58,7 @@ struct ContentView: View {
       }
       
     }
-    .navigationTitle("Compras")
+    .navigationTitle("List")
     .onAppear(perform: {
       viewModel.load()
     })
