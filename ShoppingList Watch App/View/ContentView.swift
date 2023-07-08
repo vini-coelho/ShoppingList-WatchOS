@@ -8,16 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-  @State private var items: [Item] = [Item]()
   @State private var text: String = ""
-  @StateObject private var itemViewModel = ItemViewModel()
+  @StateObject private var viewModel = ViewModel()
   
   var body: some View {
     VStack {
       HStack(alignment: .center, spacing: 6) {
         TextField("Adicionar novo item",  text: $text)
         Button {
-          itemViewModel.saveItems(text: text)
+          viewModel.add(text: text)
           
         } label: {
           Image(systemName: "plus.circle")
@@ -29,9 +28,9 @@ struct ContentView: View {
       }
       Spacer()
       
-      if itemViewModel.items.count >= 1 {
+      if viewModel.items.count >= 1 {
         List{
-          ForEach(itemViewModel.items) { item in
+          ForEach(viewModel.items) { item in
             HStack{
               Capsule()
                 .frame(width: 4)
@@ -39,6 +38,11 @@ struct ContentView: View {
               Text(item.text)
                 .lineLimit(1)
                 .padding(.leading, 5)
+            }
+          }
+          .onDelete { indexSet in
+            withAnimation {
+              viewModel.remove(indexSet: indexSet)
             }
           }
         }
@@ -56,7 +60,7 @@ struct ContentView: View {
     }
     .navigationTitle("Compras")
     .onAppear(perform: {
-      itemViewModel.loadItems()
+      viewModel.load()
     })
   }
   
